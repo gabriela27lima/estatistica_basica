@@ -25,7 +25,6 @@ plt.fill_between(x, y, where=(x <= valor), color='sandybrown', alpha=0.3, label=
 plt.axvline(x=valor, color='darkred', linestyle='--', label='Valor: {:.2f}'.format(valor))
 plt.text(valor + 0.15, 0.7, 'Probabilidade = {:.2%}'.format(probabilidade), color='teal')
 
-
 plt.title('Distribuição Normal e Probabilidade Cumulativa')
 plt.xlabel('Valores')
 plt.ylabel('Densidade de Probabilidade')
